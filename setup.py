@@ -8,6 +8,7 @@ OPTIONS = {
     'iconfile': 'resources/WeeNu.icns',
     'plist': {
         'CFBundleShortVersionString': '0.1',
+        'LSUIElement': True,
     },
 }
 
