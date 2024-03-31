@@ -1,4 +1,4 @@
-[![](https://github.com/mullweisser/mac-weenu/blob/readme/weenu-header.png?raw=true)]
+![](https://github.com/mullweisser/mac-weenu/blob/readme/weenu-header.png?raw=true)
 
 # WeeNu - Week Number in your macOS Menu Bar
 
