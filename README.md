@@ -49,9 +49,7 @@ pip install -r requirements.txt
 python setup.py py2app
 ```
 
-4. Run
-
-Find the output WeeNu.app and open
+4. Open 'WeeNu.app'
 
 ## Usage
 
