@@ -2,8 +2,6 @@
 
 # WeeNu - Week Number in your macOS Menu Bar
 
-<img src="https://github.com/mullweisser/mac-weenu/blob/readme/weenu-logo.png?raw=true" align="right">
-
 WeeNu offers a sleek and minimalist solution for macOS users who frequently rely on week numbers, a common practice in Sweden and possibly elsewhere. 
 
 Born from my own frustration with constantly having to open a calendar or visit the website [vecka.nu](https://vecka.nu) to check the current week number, this application brings that information directly to your macOS menu bar. 
