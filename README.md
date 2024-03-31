@@ -15,10 +15,6 @@ Aiming to prioritize a minimalistic design and low compute resource usage, WeeNu
 * Shows the current week number in the macOS menu bar, compliant with ISO 8601.
 * Multiple different prefix alternatives available.
 
-## Screenshots
-
-![Screenshot displaying the WeeNu menu with the prefix selection menu opened](https://github.com/mullweisser/mac-weenu/blob/readme/weenu-screenshot01.png?raw=true "Screenshot 01")
-
 ## Installation
 
 ### Option 1: Download Precompiled Executable (Recommended for Most Users)
