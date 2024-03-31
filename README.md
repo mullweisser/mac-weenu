@@ -1,7 +1,6 @@
-![alt text](https://github.com/mullweisser/mac-weenu/blob/readme-update/weenu-logo.png?raw=true)
-![alt text](https://github.com/mullweisser/mac-weenu/blob/readme-update/weenu-screenshot01.png?raw=true) ![alt text](https://github.com/mullweisser/mac-weenu/blob/readme-update/weenu-screenshot02.png?raw=true)
-
 # WeeNu - Week Number in your macOS Menu Bar
+
+<img src="https://github.com/mullweisser/mac-weenu/blob/readme-update/weenu-logo.png?raw=true" align="right">
 
 WeeNu offers a sleek and minimalist solution for macOS users who frequently rely on week numbers, a common practice in Sweden and possibly elsewhere. 
 
@@ -13,6 +12,10 @@ Aiming to prioritize a minimalistic design and low compute resource usage, WeeNu
 
 * Shows the current week number in the macOS menu bar, compliant with ISO 8601.
 * Choose to show a prefix or only the week number.
+
+## Screenshots
+
+![Screenshot displaying the WeeNu menu with the prefix selection menu opened](https://github.com/mullweisser/mac-weenu/blob/readme-update/weenu-screenshot01.png?raw=true "Screenshot 01")
 
 ## Installation
 
