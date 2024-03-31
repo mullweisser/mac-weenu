@@ -1,4 +1,5 @@
 ![alt text](https://github.com/mullweisser/mac-weenu/blob/main/weenu-logo.png?raw=true)
+![alt text](https://github.com/mullweisser/mac-weenu/blob/main/weenu-screenshot01.png?raw=true) ![alt text](https://github.com/mullweisser/mac-weenu/blob/main/weenu-screenshot02.png?raw=true)
 
 # WeeNu - Week Number in your macOS Menu Bar
 
