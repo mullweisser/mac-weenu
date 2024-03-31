@@ -43,11 +43,15 @@ cd weenu
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+3. Create application:
 
 ```bash
-python WeeNu.py
+python setup.py py2app
 ```
+
+4. Run
+
+Find the output WeeNu.app and open
 
 ## Usage
 
