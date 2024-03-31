@@ -90,7 +90,7 @@ class WeeNu(rumps.App):
         auto_check_updates.state = auto_update_check_setting
         settings_menu.add(auto_check_updates)
         settings_menu.add(None)
-        check_version_item = rumps.MenuItem("Check now", callback=self.check_version)
+        check_version_item = rumps.MenuItem("Check now", callback=lambda _: self.check_version(manual_mode=True))
         settings_menu.add(check_version_item)
         
         self.menu.add(settings_menu)
@@ -116,11 +116,11 @@ class WeeNu(rumps.App):
     def open_github(self, _):
         webbrowser.open('https://github.com/mullweisser/mac-weenu')
         
-    def check_version(self, _=None):
-        is_latest = isUpToDate('version', "https://raw.githubusercontent.com/mullweisser/main/version")
-        if is_latest:
+    def check_version(self, _=None, manual_mode=False):
+        is_latest = isUpToDate('version', "https://raw.githubusercontent.com/mullweisser/mac-weenu/main/version")
+        if is_latest and manual_mode:
             rumps.notification(title="WeeNu", subtitle="", message="You are running the latest version.", sound=False)
-        else:
+        elif not is_latest:
             rumps.notification(title="WeeNu", subtitle="", message="Newer version is available.", sound=False)
     
     def toggle_auto_update(self, sender):
@@ -133,7 +133,7 @@ class WeeNu(rumps.App):
     @rumps.timer(86400)
     def auto_check_version(self, _=None):
         if self.settings_manager.get_setting('auto_update_check', False):
-            self.check_version(_)
+            self.check_version(manual_mode=False)
 
 if __name__ == "__main__":
     app = WeeNu()

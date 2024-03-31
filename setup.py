@@ -1,13 +1,13 @@
 from setuptools import setup
 
 APP = ['WeeNu.py']
-DATA_FILES = []
+DATA_FILES = [('', ['version', 'prefix_list', 'user_settings.json'])]
 OPTIONS = {
     'argv_emulation': False,
-    'packages': ['rumps', 'datetime', 'webbrowser'],
+    'packages': ['rumps', 'datetime', 'webbrowser', 'json', 'update_check', 'requests', 'hashlib', 'urllib', 'logging', 'tqdm', 'chardet'],
     'iconfile': 'resources/WeeNu.icns',
     'plist': {
-        'CFBundleShortVersionString': '0.1',
+        'CFBundleShortVersionString': '0.2',
         'LSUIElement': True,
         'NSHumanReadableCopyright': u"Copyright © 2024, William Wijk, MIT License",
     },
@@ -16,7 +16,7 @@ OPTIONS = {
 setup(
     app=APP,
     name="WeeNu",
-    version="0.1",
+    version="0.2",
     description="WeeNu: Week number in your menubar",
     long_description="""WeeNu is a minimalist macOS menu bar application designed for simplicity and efficiency. With a clean and unobtrusive interface, it serves one purpose: to show the current week number at a glance. Perfect for professionals, students, and anyone who plans their tasks and events on a weekly basis, this app integrates seamlessly into your daily workflow, ensuring you always know the current week number without needing to open a calendar. Its lightweight design means it runs smoothly in the background, providing you with instant access to the week number with just a glance at your menu bar.""",  # Long description
     author="William Wijk (QVL)",
