@@ -1,6 +1,8 @@
+[![](https://github.com/mullweisser/mac-weenu/blob/readme/weenu-header.png?raw=true)]
+
 # WeeNu - Week Number in your macOS Menu Bar
 
-<img src="https://github.com/mullweisser/mac-weenu/blob/readme-update/weenu-logo.png?raw=true" align="right">
+<img src="https://github.com/mullweisser/mac-weenu/blob/readme/weenu-logo.png?raw=true" align="right">
 
 WeeNu offers a sleek and minimalist solution for macOS users who frequently rely on week numbers, a common practice in Sweden and possibly elsewhere. 
 
@@ -11,11 +13,11 @@ Aiming to prioritize a minimalistic design and low compute resource usage, WeeNu
 ## Features
 
 * Shows the current week number in the macOS menu bar, compliant with ISO 8601.
-* Choose to show a prefix or only the week number.
+* Multiple different prefix alternatives available.
 
 ## Screenshots
 
-![Screenshot displaying the WeeNu menu with the prefix selection menu opened](https://github.com/mullweisser/mac-weenu/blob/readme-update/weenu-screenshot01.png?raw=true "Screenshot 01")
+![Screenshot displaying the WeeNu menu with the prefix selection menu opened](https://github.com/mullweisser/mac-weenu/blob/readme/weenu-screenshot01.png?raw=true "Screenshot 01")
 
 ## Installation
 
@@ -53,11 +55,7 @@ python WeeNu.py
 
 ## Usage
 
-After installation, WeeNu runs in the background and adds an icon to your menu bar displaying the current week number. You can interact with it by clicking on the icon to see the dropdown menu with the following options:
-
-- **Manual update:** Click to manually update the week number.
-- **Settings > Show prefix/Hide prefix:** Toggle to display or hide the 'w.' prefix before the week number.
-- **About WeeNu:** Opens the GitHub repository page in your default web browser.
+After installation, WeeNu runs in the background and adds an icon to your menu bar displaying the current week number. You can interact with it by clicking on the icon to see the menu.
 
 ## Development
 
